@@ -17,7 +17,7 @@ namespace SentMail
             string subject = "Ở nhà chán quá không biết làm gì phải không?";
             string content = "Nếu bạn chán quá thì chúng tôi có món quà dành cho bạn nè :v";
             string signature = "<div dir=\"ltr\" class=\"gmail_signature\" data-smartmail=\"gmail_signature\"><div dir=\"ltr\"><div>--&nbsp;<br></div><div dir=\"ltr\"><div dir=\"ltr\"><div><div dir=\"ltr\"><i><font face=\"garamond, serif\" > \"Sinh viên giúp sinh viên làm chủ công nghệ\"</font></i></div><div dir=\"ltr\"><font face=\"garamond, serif\">-----------------------------------------------------------------</font></div><div><font face=\"garamond, serif\">CLB Tin Học Sinh Viên - Trường Đại Học Thủy Lợi</font></div></div><div>Facebook: <a href=\"http://www.facebook.com/clbtinhocsinhvien\" target=\"_blank\">CLB Tin học sinh viên - Student Informatic Club</a></div></div></div></div></div>";
-            var attachedFiles = new Attachment("av.png");
+            //var attachedFiles = new Attachment("av.png");
 
             SmtpClient mailclient = new SmtpClient("smtp.gmail.com", 587);
             mailclient.EnableSsl = true;
